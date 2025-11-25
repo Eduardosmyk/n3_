@@ -21,10 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: ESLint análise estática
+        run: npx eslint .
+
       - name: Run tests with coverage
         run: npm test
-
-      - name: Análise estática (ESLint)
-        run: |
-          npm install eslint
-          npx eslint .

@@ -2,7 +2,8 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Aplicação rodando via CI/CD!");
+  res.send("Nova versão via CI/CD automatizado!");
+
 });
 
 const port = 3000;
