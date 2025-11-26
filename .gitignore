@@ -1,0 +1,21 @@
+node_modules/
+
+# --- Arquivos de Logs ---
+npm-debug.log
+yarn-error.log
+
+# --- SEGURANÇA (CRÍTICO) ---
+*.pem
+*.pub
+# Arquivos de variáveis de ambiente (se você criar no futuro)
+.env
+
+# --- Arquivos de Sistema/Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Outros arquivos locais ---
+
+icacls
